@@ -1,0 +1,28 @@
+.container-remember {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+  
+    p {
+      font-size: 14px;
+      color: var(--test-app-fonts);
+      font-weight: bold;
+    }
+}
+ion-button{
+    color:chartreuse; 
+}
+ion-card{
+    margin-top: 30%;
+}
+.fondo{
+    background-color: springgreen;
+
+}
+ion-content{
+    --background: rgb(0, 153, 255);
+}

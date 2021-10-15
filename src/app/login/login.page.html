@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title >login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card >
+  <form [formGroup]="formLogin">
+  <ion-item>
+  <ion-input formControlName="email" placeholder="mail" type="email" color="secondary"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input  formControlName="password" placeholder="Contraseña" type="password"></ion-input>
+</ion-item>
+<div class="container-remember">
+  <!-- <p>Recordar</p>
+ <ion-checkbox mode="ios"></ion-checkbox>-->
+</div>
+  </form>
+  <ion-button mode="ios" expand="full" shape="round" color="warning" (click)="login()">Acceder</ion-button>
+   
+</ion-card>
+
+
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-list *ngFor="let pokemon of pokemons.results">
+
+      <ion-card (click)=navegardetalle(pokemon)>
+            <p> {{pokemon.name}}   </p>
+      </ion-card>
+
+</ion-list>
+
+</ion-content>
